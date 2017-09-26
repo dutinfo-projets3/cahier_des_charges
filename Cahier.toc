@@ -9,3 +9,14 @@
 \contentsline {section}{\numberline {2.6}Fonctionnalit\IeC {\'e}s}{4}
 \contentsline {section}{\numberline {2.7}Langues}{4}
 \contentsline {chapter}{\numberline {3}Prestations attendues}{5}
+\contentsline {section}{\numberline {3.1}Charte graphique et charte \IeC {\'e}ditoriale}{5}
+\contentsline {section}{\numberline {3.2}Cr\IeC {\'e}ation et r\IeC {\'e}cup\IeC {\'e}ration de contenus}{5}
+\contentsline {section}{\numberline {3.3}D\IeC {\'e}veloppement}{5}
+\contentsline {section}{\numberline {3.4}D\IeC {\'e}pot du nom de domaine et adresses mail}{5}
+\contentsline {section}{\numberline {3.5}H\IeC {\'e}bergement}{5}
+\contentsline {section}{\numberline {3.6}R\IeC {\'e}f\IeC {\'e}rencement}{5}
+\contentsline {section}{\numberline {3.7}Mises \IeC {\`a} jour}{5}
+\contentsline {section}{\numberline {3.8}Statistiques de connections}{5}
+\contentsline {chapter}{\numberline {4}R\IeC {\'e}ponse attendue}{6}
+\contentsline {chapter}{\numberline {5}Planning pr\IeC {\'e}visionnel}{7}
+\contentsline {chapter}{\numberline {6}Budget}{8}
