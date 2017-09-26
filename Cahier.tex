@@ -1,4 +1,4 @@
-\documentclass[oneside]{book}
+\documentclass[oneside]{report}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[frenchb]{babel}
@@ -6,18 +6,17 @@
 \usepackage[margin=2cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{changepage}
+\usepackage{etoolbox}
 
 \graphicspath{ {images/} }
 
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{\includegraphics{logo}}
-\lhead{Cahier des charges}
 
 \author{Nathan JANCZEWSKI, Léo BERGEROT, Loic HUSSON, Youness LOUCIF,\\ Alexandre QUILLET, Jonathan PAUGOIS }
 
-\newcommand{\indentunder}{1.5cm}
+\usepackage{etoolbox}
+\patchcmd{\chapter}{plain}{fancy}{}{}
 
+\newcommand{\indentunder}{1.5cm}
 \begin{document}
 	\begin{titlepage}
 		\centering		
@@ -29,17 +28,22 @@
 		\vspace{10cm}
 		{\par Université Pan Africaine (UPA)\par}
 		{\par Site web \par}
-		\vspace{1cm}
+		{\vfill}
 		{\par Contact: \par}
 		{\par\small Mme GUESSOUM Zahia\par}
-		{\par *Numero téléphone* \par}
-		{\par *Adresse* \par}
 		{\par zahia.guessoum@univ-reims.fr \par}
 	\end{titlepage}		
-	\tableofcontents
 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\includegraphics{logo}}
+\lhead{Cahier des charges}
+
+	\tableofcontents
+	
 	\chapter{Présentation de l'École}
 	{
+		
 		\par Les instituts des Universités PanAfricaines ont pour but d’améliorer la qualité d'apprentissage des Sciences et de la Technologie.
 		\vspace{1cm}
 		\par C’est en 2003 à Johannesbourg lors de la première Conférence ministérielle sur l’environnement que naît l’idée de créer un réseau destiné à promouvoir et à faciliter la mobilité des étudiants comme des enseignants, harmoniser les programmes Universitaires, répondre aux défis auxquels le continent le continent Africain devra faire face et améliorer l’attractivité des études en Afrique.
@@ -74,6 +78,7 @@
 		\vspace{1cm}
 		\par\underline{Ce qui ne va pas}:
 		\vspace{.5cm}
+		\begin{adjustwidth}{\indentunder}{}
 		\begin{itemize}
 			\item Le site actuel est très utile à but informatif, mais ne permet aucune gestion de l'antenne Algérienne.
 			\item Il n'offre aucune plus-value aux étudiants suivants déjà les cours à l'université, et encore moins aux professeurs.
@@ -83,13 +88,26 @@
 			\item Pas d'attribut ALT sur les images
 			\item Certaines pages dans les mauvaises catégories (Welcome dans About par exemple)
 		\end{itemize}
+		\end{adjustwidth}
 	\vspace{1cm}
-	\par\underline{Ce qui ne va}:
+	\par\underline{Ce qui va}:
 		\vspace{.5cm}
+		\begin{adjustwidth}{\indentunder}{}
 		\begin{itemize}
 			\item L'utilisation du framework Bootstrap garantie une adaptabilité et le fonctionnement sur une grande variété de navigateurs.
 			\item Les informations sur le sites sont correctes
 			\item Volonté de minimiser les couleurs afin de garantir un accès aux malvoyants
 		\end{itemize}
+		\end{adjustwidth}
+	\section{Comité de pilotage}
+	\section{Objectifs du site}
+	\section{Les cibles (À qui s'adresse le site ?)}
+	\section{Plan du site (Arborescence)}
+	\section{Contenus}
+	\section{Fonctionnalités}
+	\section{Langues}
+	\chapter{Prestations attendues}
+	{
 	}
+}
 \end{document}
