@@ -5,7 +5,7 @@
 \usepackage{graphicx}
 \usepackage[margin=2cm]{geometry}
 \usepackage{fancyhdr}
-\usepackage{blindtext}
+\usepackage{changepage}
 
 \graphicspath{ {images/} }
 
@@ -15,6 +15,8 @@
 \lhead{Cahier des charges}
 
 \author{Nathan JANCZEWSKI, Léo BERGEROT, Loic HUSSON, Youness LOUCIF,\\ Alexandre QUILLET, Jonathan PAUGOIS }
+
+\newcommand{\indentunder}{1.5cm}
 
 \begin{document}
 	\begin{titlepage}
@@ -38,13 +40,13 @@
 
 	\chapter{Présentation de l'École}
 	{
-	\par Les instituts des Universités PanAfricaines ont pour but d’améliorer la qualité d'apprentissage des Sciences et de la Technologie.
-	\vspace{1cm}
-	\par C’est en 2003 à Johannesbourg lors de la première Conférence ministérielle sur l’environnement que naît l’idée de créer un réseau destiné à promouvoir et à faciliter la mobilité des étudiants comme des enseignants, harmoniser les programmes Universitaires, répondre aux défis auxquels le continent le continent Africain devra faire face et améliorer l’attractivité des études en Afrique.
-	\vspace{1cm}
-	\par Une des antennes de cette Université est l’Institut de Université PanAfricaine pour les Sciences de l’Eau et de l'Énergie (y compris le changement climatique) (PAUWES), institué lors de la Commission de l’Union Africaine réunie en 2008, à Tlemcen au Nord-Ouest de l’Algérie. 
-	\vspace{1cm}
-	\par Elle offre deux programmes d’études supérieures :
+		\par Les instituts des Universités PanAfricaines ont pour but d’améliorer la qualité d'apprentissage des Sciences et de la Technologie.
+		\vspace{1cm}
+		\par C’est en 2003 à Johannesbourg lors de la première Conférence ministérielle sur l’environnement que naît l’idée de créer un réseau destiné à promouvoir et à faciliter la mobilité des étudiants comme des enseignants, harmoniser les programmes Universitaires, répondre aux défis auxquels le continent le continent Africain devra faire face et améliorer l’attractivité des études en Afrique.
+		\vspace{1cm}
+		\par Une des antennes de cette Université est l’Institut de Université PanAfricaine pour les Sciences de l’Eau et de l'Énergie (y compris le changement climatique) (PAUWES), institué lors de la Commission de l’Union Africaine réunie en 2008, à Tlemcen au Nord-Ouest de l’Algérie. 
+		\vspace{1cm}
+		\par Elle offre deux programmes d’études supérieures :
 		\begin{itemize}
 			\item{Master en Science de l’énergie}
 			\item{Master en Science de l’eau}
@@ -52,6 +54,42 @@
 	}
 	\chapter{Présentation du projet}
 	{
-		
+		\par Rendre le site web plus utile pour:
+		\begin{itemize}
+			\item{L'administration}
+				\subitem{Inscrire les nouveaux étudiants}
+				\subitem{Gère le dossier personnel des étudiants}
+				\subitem{Accède à la base de donnée de tous les étudiants}
+				\subitem{Mettre à jour les emplois du temps}
+			\item{Les étudiants}
+				\subitem{Accès en ligne aux cours}
+				\subitem{Accès à l'emploi du temps personnel}
+				\subitem{Messagerie}
+				\subitem{Modifier les données personnelles}
+			\item{Les enseignants}
+				\subitem{Déposer les cours en ligne}
+				\subitem{Messagerie}
+				\subitem{Consulter son emploi du temps}
+		\end{itemize}
+		\vspace{1cm}
+		\par\underline{Ce qui ne va pas}:
+		\vspace{.5cm}
+		\begin{itemize}
+			\item Le site actuel est très utile à but informatif, mais ne permet aucune gestion de l'antenne Algérienne.
+			\item Il n'offre aucune plus-value aux étudiants suivants déjà les cours à l'université, et encore moins aux professeurs.
+			\item Il y a deux carroussels présents sur toutes les pages prenant une place considérable, forçant ainsi l'utilisateur à descendre sur la page.
+			\item Le comportement de ceux-ci est très aléatoire
+			\item La présence de deux menu porte confusion
+			\item Pas d'attribut ALT sur les images
+			\item Certaines pages dans les mauvaises catégories (Welcome dans About par exemple)
+		\end{itemize}
+	\vspace{1cm}
+	\par\underline{Ce qui ne va}:
+		\vspace{.5cm}
+		\begin{itemize}
+			\item L'utilisation du framework Bootstrap garantie une adaptabilité et le fonctionnement sur une grande variété de navigateurs.
+			\item Les informations sur le sites sont correctes
+			\item Volonté de minimiser les couleurs afin de garantir un accès aux malvoyants
+		\end{itemize}
 	}
 \end{document}
