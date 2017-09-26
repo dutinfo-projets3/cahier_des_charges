@@ -7,6 +7,7 @@
 \usepackage{fancyhdr}
 \usepackage{changepage}
 \usepackage{etoolbox}
+\usepackage{xcolor}
 
 \graphicspath{ {images/} }
 
@@ -15,6 +16,10 @@
 
 \usepackage{etoolbox}
 \patchcmd{\chapter}{plain}{fancy}{}{}
+
+\newcommand{\writecol}[1] {
+	\subitem{\textcolor[HTML]{#1}{\# #1}}
+}
 
 \newcommand{\indentunder}{1.5cm}
 \begin{document}
@@ -65,15 +70,19 @@
 				\subitem{Gère le dossier personnel des étudiants}
 				\subitem{Accède à la base de donnée de tous les étudiants}
 				\subitem{Mettre à jour les emplois du temps}
+				\subitem{Relever les abscences des étudiants}
 			\item{Les étudiants}
 				\subitem{Accès en ligne aux cours}
 				\subitem{Accès à l'emploi du temps personnel}
 				\subitem{Messagerie}
 				\subitem{Modifier les données personnelles}
+				\subitem{Consulter les notes}
 			\item{Les enseignants}
 				\subitem{Déposer les cours en ligne}
 				\subitem{Messagerie}
 				\subitem{Consulter son emploi du temps}
+				\subitem{Gestion des notes}
+				\subitem{Relever les abscences des étudiants}
 		\end{itemize}
 		\vspace{1cm}
 		\par\underline{Ce qui ne va pas}:
@@ -111,6 +120,10 @@
 	\chapter{Prestations attendues}
 	{
 		\section{Charte graphique et charte éditoriale}
+			\begin{itemize}
+				\item{Test}
+					\writecol{639D35}
+			\end{itemize}
 		\section{Création et récupération de contenus}
 		\section{Développement}
 		\section{Dépot du nom de domaine et adresses mail}
