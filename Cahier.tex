@@ -1,7 +1,57 @@
-\documentclass{article}
+\documentclass[oneside]{book}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[frenchb]{babel}
+\usepackage{graphicx}
+\usepackage[margin=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{blindtext}
+
+\graphicspath{ {images/} }
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\includegraphics{logo}}
+\lhead{Cahier des charges}
+
+\author{Nathan JANCZEWSKI, Léo BERGEROT, Loic HUSSON, Youness LOUCIF,\\ Alexandre QUILLET, Jonathan PAUGOIS }
+
 \begin{document}
-	\LaTeX  fonctionnel
+	\begin{titlepage}
+		\centering		
+		\includegraphics[scale=2]{logo}
+		\vspace{5cm}
+		{\par\scshape\Huge Cahier des charges \par}
+		\vspace{0.5cm}
+		{\par\scshape\Large Site web pour l'Université Pan Africaine\par}
+		\vspace{10cm}
+		{\par Université Pan Africaine (UPA)\par}
+		{\par Site web \par}
+		\vspace{1cm}
+		{\par Contact: \par}
+		{\par\small Mme GUESSOUM Zahia\par}
+		{\par *Numero téléphone* \par}
+		{\par *Adresse* \par}
+		{\par zahia.guessoum@univ-reims.fr \par}
+	\end{titlepage}		
+	\tableofcontents
+
+	\chapter{Présentation de l'École}
+	{
+	\par Les instituts des Universités PanAfricaines ont pour but d’améliorer la qualité d'apprentissage des Sciences et de la Technologie.
+	\vspace{1cm}
+	\par C’est en 2003 à Johannesbourg lors de la première Conférence ministérielle sur l’environnement que naît l’idée de créer un réseau destiné à promouvoir et à faciliter la mobilité des étudiants comme des enseignants, harmoniser les programmes Universitaires, répondre aux défis auxquels le continent le continent Africain devra faire face et améliorer l’attractivité des études en Afrique.
+	\vspace{1cm}
+	\par Une des antennes de cette Université est l’Institut de Université PanAfricaine pour les Sciences de l’Eau et de l'Énergie (y compris le changement climatique) (PAUWES), institué lors de la Commission de l’Union Africaine réunie en 2008, à Tlemcen au Nord-Ouest de l’Algérie. 
+	\vspace{1cm}
+	\par Elle offre deux programmes d’études supérieures :
+		\begin{itemize}
+			\item{Master en Science de l’énergie}
+			\item{Master en Science de l’eau}
+		\end{itemize}
+	}
+	\chapter{Présentation du projet}
+	{
+		
+	}
 \end{document}
