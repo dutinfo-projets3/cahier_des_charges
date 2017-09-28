@@ -112,20 +112,56 @@
 		\section{Comité de pilotage}
 		\section{Objectifs du site}
 		\section{Les cibles (À qui s'adresse le site ?)}
+		\par Le sites s'adresse d'une part aux futur étudiants recherchant des informations sur les diverses formations, d'autre part il s'adresse à l'administration de l'Université, aux professeurs ainsi qu'aux élèves qui auront un accès avec plus de fonctionnalités.
 		\section{Plan du site (Arborescence)}
+		\par L'arborescence est la suivante:\\
+		\begin{center}
+			\includegraphics[scale=1.5]{arborescence}
+		\end{center}
 		\section{Contenus}
 		\section{Fonctionnalités}
+		{
+			\par Diagramme UML des fonctionnalités du site web:\\
+			\begin{center}
+				\includegraphics[scale=1.5]{uml_base}
+				\\
+				\includegraphics[scale=1.5]{uml_admin}
+			\end{center}
+		}
 		\section{Langues}
+		{
+			\par Le site sera conçu avec un système de traduction permettant ainsi au besoin d'ajouter d'autres langues que les deux de bases qui seront Anglais et Français.
+		}
 	}
 	\chapter{Prestations attendues}
 	{
 		\section{Charte graphique et charte éditoriale}
 			\begin{itemize}
-				\item{Test}
+				\item{Couleurs}
 					\writecol{639D35}
+					\writecol{040707}
+					\writecol{868786}
+					\writecol{005899}
+					\subitem{\# FFFFFF (Blanc pure)}
+				\item{Typographie}
+					\subitem{Police d'écriture pour les titres et le corps: Roboto Sans-Serif}
+					\subitem{???}
+				\item{Logo}
+					\subitem{\includegraphics[scale=2]{logo}}
 			\end{itemize}
 		\section{Création et récupération de contenus}
 		\section{Développement}
+		\par Pour gérer correctement l’automatisation de chaque tâches, il sera nécessaire d’utiliser de la programmation orientée objet (PHP), les information seront stocké dans une base de donnée (SQL).
+		\par
+		\begin{itemize}
+			\item Gestion automatique d’ajout des formations
+			\item Gestion de la modification de l’emploie du temps avec envoie automatique d'e-mail pour prévenir les personnes
+			\item Moteur de recherche interne au site
+			\item Gestion automatique d’ajout et modification des événements (actualitées)
+			\item Gestion ajout et modification des informations personnels(dossier étudiant, dossier professeur)
+			\item Gestion d’ajout des cours en lignes et téléchargement de ceux-ci
+			\item Gestion des absences
+		\end{itemize}
 		\section{Dépot du nom de domaine et adresses mail}
 		\section{Hébergement}
 		\section{Référencement}
