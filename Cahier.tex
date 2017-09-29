@@ -8,7 +8,12 @@
 \usepackage{changepage}
 \usepackage{etoolbox}
 \usepackage{xcolor}
+\usepackage{titlesec}
 
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{}{20pt}{\Huge}
+
+\titlespacing*{\chapter}{0pt}{0pt}{0pt}
 \graphicspath{ {images/} }
 
 
@@ -110,7 +115,17 @@
 		\end{adjustwidth}
 	
 		\section{Comité de pilotage}
+		{
+			\par L’équipe attitré au projet utilise la méthode \textit{SCRUM}. Cela veut dire que le développement se découpera en sprints, période sur lequel l’équipe planifiera les fonctionnalités qui devront être implémentées, qui se conclura sur une démonstration au client qui pourra alors vérifier le respect du cahier des charges à son gré ainsi que la validation du graphisme et du contenus.
+			\vspace{.5cm}
+			\par Si le client le souhaite, la validation de l’ergonomie sera effectuée en testant sur des personnes externes (Hors scolarité pour la recherches d’informations, ainsi qu’étudiants et professeurs pour leurs parties respectives)
+
+		}
 		\section{Objectifs du site}
+		{
+			Le site est d’une part un site d’informations à destination d’élèves souhaitant intégrer une université afin de décrire le fonctionnement de celle-ci, mais aussi un support de cours et communications entre étudiants et professeurs de l’université.
+		}
+		
 		\section{Les cibles (À qui s'adresse le site ?)}
 		\par Le sites s'adresse d'une part aux futur étudiants recherchant des informations sur les diverses formations, d'autre part il s'adresse à l'administration de l'Université, aux professeurs ainsi qu'aux élèves qui auront un accès avec plus de fonctionnalités.
 		\section{Plan du site (Arborescence)}
@@ -135,7 +150,7 @@
 	}
 	\chapter{Prestations attendues}
 	{
-		\section{Charte graphique et charte éditoriale}
+		\section{Charte graphique}
 			\begin{itemize}
 				\item{Couleurs}
 					\writecol{639D35}
@@ -143,15 +158,14 @@
 					\writecol{868786}
 					\writecol{005899}
 					\subitem{\# FFFFFF (Blanc pure)}
-				\item{Typographie}
-					\subitem{Police d'écriture pour les titres et le corps: Roboto Sans-Serif}
-					\subitem{???}
+				\item{Typographie: Roboto Sans-Serif}
 				\item{Logo}
 					\subitem{\includegraphics[scale=2]{logo}}
 			\end{itemize}
 		\section{Création et récupération de contenus}
 		{
-			Le contenus déjà disponible se compose de diverses photos dont les auteurs sont:
+			\par Le contenus déjà disponible se compose de diverses photos dont les auteurs sont:
+			\vspace{.5cm}
 			\begin{itemize}
 				\item Tlemcen University
 				\item Mr Hefhaf/Tlemcen University
@@ -165,7 +179,10 @@
 				\item bikeriderinlondon/Shutterstock
 				\item Tyler Olson/Shutterstock
 			\end{itemize}
-			Nous nous baserons sur le contenu déjà utilisé et nous n'aurons pas besoin de contenus supplémentaires.
+			\vspace{.5cm}
+			\par Nous nous baserons sur le contenu déjà utilisé et nous n'aurons pas besoin de contenus supplémentaires.
+			\vspace{.5cm}
+			\par Le site reprendra les diverses informations accessibles sur le site actuel, qui seront re-triées afin d’obtenir une ergonomie plus accessible, mais permettra tout de même de modifier ce qui à été inclu, celui-ci se comportant comme un CMS (Ou SGC, système de gestion de contenu).
 		}
 		\section{Développement}
 		\par Pour gérer correctement l’automatisation de chaque tâches, il sera nécessaire d’utiliser de la programmation orientée objet (PHP), les information seront stocké dans une base de donnée (SQL).
@@ -186,6 +203,10 @@
 		\section{Hébergement}
 		\section{Référencement}
 		\section{Mises à jour}
+		{
+			\par Le site étant développé comme un CMS, il a parmis ses objectifs d’être dynamique, ainsi l’équipe administrative pourra modifier le contenu, les pages et menus depuis l’interface destinée à être simple d’utilisation.
+			\par Cependant, un contrat de maintenance pourra être mis en place si un ajout de fonctionnalités est susceptible d’être demandé dans le futur.
+		}
 		\section{Statistiques de connections}
 	}
 
