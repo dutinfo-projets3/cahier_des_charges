@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {2.6}Fonctionnalit\IeC {\'e}s}{4}
 \contentsline {section}{\numberline {2.7}Langues}{5}
 \contentsline {chapter}{\numberline {3}Prestations attendues}{6}
-\contentsline {section}{\numberline {3.1}Charte graphique et charte \IeC {\'e}ditoriale}{6}
+\contentsline {section}{\numberline {3.1}Charte graphique}{6}
 \contentsline {section}{\numberline {3.2}Cr\IeC {\'e}ation et r\IeC {\'e}cup\IeC {\'e}ration de contenus}{6}
 \contentsline {section}{\numberline {3.3}D\IeC {\'e}veloppement}{6}
 \contentsline {section}{\numberline {3.4}D\IeC {\'e}pot du nom de domaine et adresses mail}{7}
