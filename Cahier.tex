@@ -56,7 +56,7 @@
 		
 		\par Les instituts des Universités Pan Africaines ont pour but d’améliorer la qualité d'apprentissage des sciences et technologies.
 		\vspace{1cm}
-		\par C’est en 2003 à Johannesbourg lors de la première Conférence ministérielle sur l’environnement que naît l’idée de créer un réseau destiné à promouvoir et à faciliter la mobilité des étudiants comme des enseignants, harmoniser les programmes universitaires, répondre aux défis auxquels le continent le continent africain devra faire face et améliorer l’attractivité des études en Afrique.
+		\par C’est en 2003 à Johannesbourg lors de la première Conférence ministérielle sur l’environnement que naît l’idée de créer un réseau destiné à promouvoir et à faciliter la mobilité des étudiants comme des enseignants, harmoniser les programmes universitaires, répondre aux défis auxquels le continent africain devra faire face et améliorer l’attractivité des études en Afrique.
 		\vspace{1cm}
 		\par Une des antennes de cette Université est l’Institut de Université PanAfricaine pour les Sciences de l’Eau et de l'Énergie (y compris le changement climatique) (PAUWES), institué lors de la Commission de l’Union Africaine réunie en 2008, à Tlemcen au Nord-Ouest de l’Algérie. 
 		\vspace{1cm}
@@ -98,7 +98,7 @@
 			\item Il n'offre aucune plus-value aux étudiants suivants déjà les cours à l'université, et encore moins aux professeurs.
 			\item Il y a deux carroussels présents sur toutes les pages prenant une place considérable, forçant ainsi l'utilisateur à descendre sur la page.
 			\item Le comportement de ceux-ci est très aléatoire
-			\item La présence de deux menu porte confusion
+			\item La présence de deux menu porte à confusion
 			\item Pas d'attribut ALT sur les images
 			\item Certaines pages dans les mauvaises catégories (Welcome dans About par exemple)
 		\end{itemize}
@@ -113,7 +113,7 @@
 			\item Volonté de minimiser les couleurs afin de garantir un accès aux malvoyants
 		\end{itemize}
 		\end{adjustwidth}
-	
+\newpage
 		\section{Comité de pilotage}
 		{
 			\par L’équipe attitré au projet utilise la méthode \textit{SCRUM}. Cela veut dire que le développement se découpera en sprints, période sur lequel l’équipe planifiera les fonctionnalités qui devront être implémentées, qui se conclura sur une démonstration au client qui pourra alors vérifier le respect du cahier des charges à son gré ainsi que la validation du graphisme et du contenus.
@@ -128,28 +128,43 @@
 		
 		\section{Les cibles (À qui s'adresse le site ?)}
 		\par Le sites s'adresse d'une part aux futur étudiants recherchant des informations sur les diverses formations, d'autre part il s'adresse à l'administration de l'Université, aux professeurs ainsi qu'aux élèves qui auront un accès avec plus de fonctionnalités.
-		\section{Plan du site (Arborescence)}
-		\par L'arborescence est la suivante:\\
-		\begin{center}
-			\includegraphics[scale=1.5]{arborescence}
-		\end{center}
+
 		\section{Contenus}
 		{
-			\par Le site reprendra les diverses informations accessibles sur le site actuel, qui seront re-triées afin d’obtenir une ergonomie plus accessible, mais permettra tout de même de modifier ce qui à été inclu, celui-ci se comportant comme un CMS (Ou SGC, système de gestion de contenu)
+			\par Le site reprendra les diverses informations accessibles sur le site actuel, qui seront re-triées afin d’obtenir une ergonomie plus accessible, mais permettra tout de même de modifier ce qui à été inclus, celui-ci se comportant comme un CMS (Ou SGC, système de gestion de contenu)
 		}
+		\section{Langues}
+		{
+			\par Le site sera conçu avec un système de traduction permettant ainsi au besoin d'ajouter d'autres langues que les deux de bases qui seront Anglais et Français.
+		}
+
+		\section{Plan du site (Arborescence)}
+		{
+			\par L'arborescence est la suivante:\\
+			\noindent\makebox[\textwidth]{\includegraphics[scale=1]{arborescence}}
+		}
+
+		\section{Maquette du site}
+		{
+			\par Accès au site par un utilisateur non connecté:\\ \vspace{.5cm}
+			\noindent\makebox[\textwidth]{\includegraphics[scale=.5]{accueil}}
+			\newpage
+			\par Menu pour un utilisateur connecté: \\ \vspace{0.5cm}
+			\noindent\makebox[\textwidth]{\includegraphics[scale=.5]{accueil_connect_top}}
+			\par Emploi du temps: \\ \vspace{0.5cm}
+			\noindent\makebox[\textwidth]{\includegraphics[scale=.5]{emploi}}
+		}
+
+	\newpage
 
 		\section{Fonctionnalités}
 		{
 			\par Diagramme UML des fonctionnalités du site web:\\
 			\begin{center}
 				\includegraphics[scale=1.5]{uml_base}
-				\\
+				\\ \vspace{1cm}
 				\includegraphics[scale=1.5]{uml_admin}
 			\end{center}
-		}
-		\section{Langues}
-		{
-			\par Le site sera conçu avec un système de traduction permettant ainsi au besoin d'ajouter d'autres langues que les deux de bases qui seront Anglais et Français.
 		}
 	}
 	\chapter{Prestations attendues}
@@ -161,7 +176,7 @@
 					\writecol{040707}
 					\writecol{868786}
 					\writecol{005899}
-					\subitem{\# FFFFFF (Blanc pure)}
+					\subitem{\# FFFFFF (Blanc pur)}
 				\item{Typographie: Roboto Sans-Serif}
 				\item{Logo}
 					\subitem{\includegraphics[scale=2]{logo}}
@@ -188,26 +203,26 @@
 			\vspace{.5cm}
 		}
 		\section{Développement}
-		\par Pour gérer correctement l’automatisation de chaque tâches, il sera nécessaire d’utiliser de la programmation orientée objet (PHP), les information seront stocké dans une base de donnée (SQL).
+		\par Pour gérer correctement l’automatisation de chaque tâches, il sera nécessaire d’utiliser de la programmation orientée objet (PHP), les information seront stockées dans une base de donnée (SQL).
 		\par
 		\begin{itemize}
 			\item Gestion automatique d’ajout des formations
-			\item Gestion de la modification de l’emploie du temps avec envoie automatique d'e-mail pour prévenir les personnes
+			\item Gestion de la modification de l’emploi du temps avec envoi automatique d'e-mails pour prévenir les personnes
 			\item Moteur de recherche interne au site
 			\item Gestion automatique d’ajout et modification des événements (actualitées)
-			\item Gestion ajout et modification des informations personnels(dossier étudiant, dossier professeur)
-			\item Gestion d’ajout des cours en lignes et téléchargement de ceux-ci
+			\item Gestion ajout et modification des informations personnelles (dossier étudiant, dossier professeur)
+			\item Gestion d’ajout des cours en ligne et téléchargement de ceux-ci
 			\item Gestion des absences
 		\end{itemize}
 		\section{Dépot du nom de domaine et adresses mail}
 		{
-			\par Le nom de domaine "\textit{http://pauwes.univ-tlemcen.dz/}" étant déjà déposé, aucun coût supplémentaires seront à prévoire à ce niveau la. Cependant la configuration du serveur mail peut-être à prévoire en fonction de la configuration actuelle de l'hébergeur.
+			\par Le nom de domaine "\textit{http://pauwes.univ-tlemcen.dz/}" étant déjà déposé, aucun coûts supplémentaires ne seront à prévoir. Cependant la configuration du serveur mail peut-être à prévoire en fonction de la configuration actuelle de l'hébergeur.
 		}
 		\section{Hébergement}
 		\section{Référencement}
 		\section{Mises à jour}
 		{
-			\par Le site étant développé comme un CMS, il a parmis ses objectifs d’être dynamique, ainsi l’équipe administrative pourra modifier le contenu, les pages et menus depuis l’interface destinée à être simple d’utilisation.
+			\par Le site étant développé comme un CMS, il a parmis ses objectifs d’être dynamique. Ainsi l’équipe administrative pourra modifier le contenu, les pages et menus depuis l’interface destinée à être simple d’utilisation.
 			\par Cependant, un contrat de maintenance pourra être mis en place si un ajout de fonctionnalités est susceptible d’être demandé dans le futur.
 		}
 		\section{Statistiques de connections}

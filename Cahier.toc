@@ -1,22 +1,23 @@
 \select@language {french}
 \contentsline {chapter}{\numberline {1}Pr\IeC {\'e}sentation de l'\IeC {\'E}cole}{2}
 \contentsline {chapter}{\numberline {2}Pr\IeC {\'e}sentation du projet}{3}
-\contentsline {section}{\numberline {2.1}Comit\IeC {\'e} de pilotage}{3}
+\contentsline {section}{\numberline {2.1}Comit\IeC {\'e} de pilotage}{4}
 \contentsline {section}{\numberline {2.2}Objectifs du site}{4}
 \contentsline {section}{\numberline {2.3}Les cibles (\IeC {\`A} qui s'adresse le site ?)}{4}
-\contentsline {section}{\numberline {2.4}Plan du site (Arborescence)}{4}
-\contentsline {section}{\numberline {2.5}Contenus}{4}
-\contentsline {section}{\numberline {2.6}Fonctionnalit\IeC {\'e}s}{4}
-\contentsline {section}{\numberline {2.7}Langues}{5}
-\contentsline {chapter}{\numberline {3}Prestations attendues}{6}
-\contentsline {section}{\numberline {3.1}Charte graphique}{6}
-\contentsline {section}{\numberline {3.2}Cr\IeC {\'e}ation et r\IeC {\'e}cup\IeC {\'e}ration de contenus}{6}
-\contentsline {section}{\numberline {3.3}D\IeC {\'e}veloppement}{6}
-\contentsline {section}{\numberline {3.4}D\IeC {\'e}pot du nom de domaine et adresses mail}{7}
-\contentsline {section}{\numberline {3.5}H\IeC {\'e}bergement}{7}
-\contentsline {section}{\numberline {3.6}R\IeC {\'e}f\IeC {\'e}rencement}{7}
-\contentsline {section}{\numberline {3.7}Mises \IeC {\`a} jour}{7}
-\contentsline {section}{\numberline {3.8}Statistiques de connections}{7}
-\contentsline {chapter}{\numberline {4}R\IeC {\'e}ponse attendue}{8}
-\contentsline {chapter}{\numberline {5}Planning pr\IeC {\'e}visionnel}{9}
-\contentsline {chapter}{\numberline {6}Budget}{10}
+\contentsline {section}{\numberline {2.4}Contenus}{4}
+\contentsline {section}{\numberline {2.5}Langues}{4}
+\contentsline {section}{\numberline {2.6}Plan du site (Arborescence)}{5}
+\contentsline {section}{\numberline {2.7}Maquette du site}{6}
+\contentsline {section}{\numberline {2.8}Fonctionnalit\IeC {\'e}s}{8}
+\contentsline {chapter}{\numberline {3}Prestations attendues}{9}
+\contentsline {section}{\numberline {3.1}Charte graphique}{9}
+\contentsline {section}{\numberline {3.2}Cr\IeC {\'e}ation et r\IeC {\'e}cup\IeC {\'e}ration de contenus}{9}
+\contentsline {section}{\numberline {3.3}D\IeC {\'e}veloppement}{9}
+\contentsline {section}{\numberline {3.4}D\IeC {\'e}pot du nom de domaine et adresses mail}{10}
+\contentsline {section}{\numberline {3.5}H\IeC {\'e}bergement}{10}
+\contentsline {section}{\numberline {3.6}R\IeC {\'e}f\IeC {\'e}rencement}{10}
+\contentsline {section}{\numberline {3.7}Mises \IeC {\`a} jour}{10}
+\contentsline {section}{\numberline {3.8}Statistiques de connections}{10}
+\contentsline {chapter}{\numberline {4}R\IeC {\'e}ponse attendue}{11}
+\contentsline {chapter}{\numberline {5}Planning pr\IeC {\'e}visionnel}{12}
+\contentsline {chapter}{\numberline {6}Budget}{13}
