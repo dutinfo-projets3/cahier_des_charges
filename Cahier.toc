@@ -13,11 +13,9 @@
 \contentsline {section}{\numberline {3.1}Charte graphique}{9}
 \contentsline {section}{\numberline {3.2}Cr\IeC {\'e}ation et r\IeC {\'e}cup\IeC {\'e}ration de contenus}{9}
 \contentsline {section}{\numberline {3.3}D\IeC {\'e}veloppement}{9}
-\contentsline {section}{\numberline {3.4}D\IeC {\'e}pot du nom de domaine et adresses mail}{10}
+\contentsline {section}{\numberline {3.4}D\IeC {\'e}p\IeC {\^o}t du nom de domaine et adresses mail}{10}
 \contentsline {section}{\numberline {3.5}H\IeC {\'e}bergement}{10}
 \contentsline {section}{\numberline {3.6}R\IeC {\'e}f\IeC {\'e}rencement}{10}
 \contentsline {section}{\numberline {3.7}Mises \IeC {\`a} jour}{10}
-\contentsline {section}{\numberline {3.8}Statistiques de connections}{10}
-\contentsline {chapter}{\numberline {4}R\IeC {\'e}ponse attendue}{11}
-\contentsline {chapter}{\numberline {5}Planning pr\IeC {\'e}visionnel}{12}
-\contentsline {chapter}{\numberline {6}Budget}{13}
+\contentsline {chapter}{\numberline {4}Planning pr\IeC {\'e}visionnel}{11}
+\contentsline {chapter}{\numberline {5}Budget}{12}
